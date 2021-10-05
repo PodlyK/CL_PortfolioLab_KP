@@ -1,6 +1,13 @@
+@import "settings/_reset.scss.css";
+@import "settings/fonts";
+@import "settings/_colors";
+
+
+
 body {
   color: lightgreen;
   background-color: lightslategrey;
   font-size: 50px;
   font-weight: bold;
+  font-family: $font-base;
 }
