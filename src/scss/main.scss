@@ -1,13 +1,19 @@
-@import "settings/_reset.scss.css";
+@import "settings/reset";
 @import "settings/fonts";
 @import "settings/_colors";
+@import "settings/_button";
+
+@import "partials/_header";
+@import "partials/_nav";
 
 
 
 body {
-  color: lightgreen;
-  background-color: lightslategrey;
-  font-size: 50px;
-  font-weight: bold;
+  max-width: 1920px;
   font-family: $font-base;
+  color: $darkgrey;
+  p {
+    line-height: 1.5rem;
+    font-size: 0.80rem;
+  }
 }
