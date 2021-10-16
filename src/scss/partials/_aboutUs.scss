@@ -1,0 +1,34 @@
+.aboutUsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: $white;
+  margin-top: 2rem;
+
+  .aboutUsLeftContainerSmall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .aboutUsRightContainerSmall {
+    width: 50%;
+  }
+
+  .aboutUsLeftContainerSmallSignature {
+    height: 200px;
+    width: 200px;
+    margin-left: 32rem;
+  }
+
+  .aboutUsContainerPeople {
+    background-size: contain;
+    max-width: 100%;
+  }
+}
+
+h3 {
+  padding: 0.5rem;
+}

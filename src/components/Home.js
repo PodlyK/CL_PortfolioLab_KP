@@ -4,6 +4,7 @@ import Menu from "./Header/menu";
 import NavBar from "./Header/NavBar";
 import ThreeColumns from "./ThreeColumns/threeColumns";
 import EasySteps from "./EasySteps/easySteps";
+import AboutUs from "./AboutUs/aboutUs";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             </header>
             <ThreeColumns />
             <EasySteps />
+            <AboutUs />
         </>
     );
 };
