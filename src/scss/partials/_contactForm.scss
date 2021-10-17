@@ -1,0 +1,47 @@
+
+.ContactContainer{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  .ContactImage{
+    background: transparent url('../../assets/Background-Contact-Form.jpg') no-repeat ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    opacity: 30%;
+    z-index: 0;
+  }
+
+  .ContactHero{
+    width: 50vw;
+    background: linear-gradient(34deg, rgba(251,247,240,1) 5%, rgba(255,255,255,0.3575805322128851) 65%);
+
+    h1 {
+      margin-bottom: 30px;
+      margin-top: 200px;
+      text-align: center;
+      font-size: 38px;
+      letter-spacing: -0.76px;
+      color: $gray;
+      opacity: 1;
+    }
+
+  }
+}
+
+.Footer {
+  color: $gray;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+
+  .FooterLabel {
+
+  }
+  .socialIcons {
+
+  }
+}

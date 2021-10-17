@@ -5,6 +5,10 @@ import NavBar from "./Header/NavBar";
 import ThreeColumns from "./ThreeColumns/threeColumns";
 import EasySteps from "./EasySteps/easySteps";
 import AboutUs from "./AboutUs/aboutUs";
+import InfoSection from "./Information/infoSection";
+import ContactForm from "./ContactSection/contactForm";
+import Social from "./Social/socialSection";
+
 
 const Home = () => {
     return (
@@ -17,6 +21,9 @@ const Home = () => {
             <ThreeColumns />
             <EasySteps />
             <AboutUs />
+            <InfoSection />
+            <ContactForm />
+            {/*<Social />*/}
         </>
     );
 };
