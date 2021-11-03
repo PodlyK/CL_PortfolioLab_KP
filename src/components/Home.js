@@ -7,7 +7,7 @@ import EasySteps from "./EasySteps/easySteps";
 import AboutUs from "./AboutUs/aboutUs";
 import InfoSection from "./Information/infoSection";
 import ContactForm from "./ContactSection/contactForm";
-import Social from "./Social/socialSection";
+
 
 
 const Home = () => {
@@ -23,7 +23,6 @@ const Home = () => {
             <AboutUs />
             <InfoSection />
             <ContactForm />
-            {/*<Social />*/}
         </>
     );
 };

@@ -1,59 +1,59 @@
-.Form {
-  margin-left: 100px;
-
-
-  .FormHeader{
-    display: flex;
-
-
-    .FormHeaderName{
-      text-align: left;
-      color: $darkgrey;
-      background: transparent;
-    }
-
-    .FormHeaderMail{
-      text-align: left;
-      margin-left: 25px;
-      color: $darkgrey;
-      background: transparent;
-    }
-  }
-
-  input {
-    border: none;
-    border-bottom: 1px solid #707070;
-    margin-top: 1rem;
-    outline: 0;
-    background: transparent;
-  }
-  ::placeholder{
-    opacity: 20%;
-  }
-
-  textarea {
-    border: none;
-    border-bottom: 1px solid #707070;
-    margin-top: 16px;
-    outline: 0;
-    resize: none;
-    width: 450px;
-    height: 97px;
-    background: transparent;
-  }
-
-  .FormMessage{
-    margin-top: 40px;
-    margin-right: 236px ;
-  }
-
-  button {
-    margin-top: 40px;
-    padding: 0.5rem 2rem;
-    background-color: white;
-    border: 1px solid black;
-    cursor: pointer;
-    margin-left: 345px;
-    font: 300 18px Open Sans;
-  }
-}
+//.Form {
+//  margin-left: 100px;
+//
+//
+//  .FormHeader{
+//    display: flex;
+//
+//
+//    .FormHeaderName{
+//      text-align: left;
+//      color: $darkgrey;
+//      background: transparent;
+//    }
+//
+//    .FormHeaderMail{
+//      text-align: left;
+//      margin-left: 25px;
+//      color: $darkgrey;
+//      background: transparent;
+//    }
+//  }
+//
+//  input {
+//    border: none;
+//    border-bottom: 1px solid #707070;
+//    margin-top: 1rem;
+//    outline: 0;
+//    background: transparent;
+//  }
+//  ::placeholder{
+//    opacity: 20%;
+//  }
+//
+//  textarea {
+//    border: none;
+//    border-bottom: 1px solid #707070;
+//    margin-top: 16px;
+//    outline: 0;
+//    resize: none;
+//    width: 450px;
+//    height: 97px;
+//    background: transparent;
+//  }
+//
+//  .FormMessage{
+//    margin-top: 40px;
+//    margin-right: 236px ;
+//  }
+//
+//  button {
+//    margin-top: 40px;
+//    padding: 0.5rem 2rem;
+//    background-color: white;
+//    border: 1px solid black;
+//    cursor: pointer;
+//    margin-left: 345px;
+//    font: 300 18px Open Sans;
+//  }
+//}

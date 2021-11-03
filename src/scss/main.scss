@@ -2,6 +2,7 @@
 @import "settings/fonts";
 @import "settings/_colors";
 @import "settings/_button";
+//@import "~bootstrap/scss/bootstrap";
 
 @import "partials/_header";
 @import "partials/_nav";
@@ -10,7 +11,7 @@
 @import "partials/_aboutUs";
 @import "partials/_infoSection";
 @import "partials/_contactForm";
-@import "partials/_forms";
+//@import "partials/_forms";
 @import "partials/_social";
 
 body {
