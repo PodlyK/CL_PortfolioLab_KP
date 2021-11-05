@@ -1,4 +1,4 @@
-.userLogin {
+.userSignIn {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,38 +6,38 @@
   margin-top: 123px;
 }
 
-.userLoginNav {
+.userSignInNav {
   width: 100%;
   margin-top: 0.2rem;
 }
 
-.loginPanel {
+.SignInPanel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.loginPanel > h3 {
+.SignInPanel > h3 {
   font-size: 40px;
   margin-bottom: 1.2rem;
   color: $darkgrey;
 }
 
-.loginPanel > img {
+.SignInPanel > img {
   margin-bottom: 60px;
   width: 253px;
   height: 33px;
 }
 
-.loginForm {
+.SignInForm {
   width: 385px;
-  height: 235px;
+  height: 328px;
   background-color: #F0F1F1;
   padding: 1rem;
-  }
+}
 
-.loginEmail, .loginPassword {
+.SignInEmail, .SignInPassword, .SignInPasswordRepeat {
   display: flex;
   flex-direction: column;
   margin-bottom: 31px;
@@ -50,11 +50,11 @@
   font-weight: bold;
 }
 
-.loginEmail > label, .loginPassword > label {
+.SignInEmail > label, .SignInPassword > label, .SignInPasswordRepeat > label {
   margin-bottom: 20px;
 }
 
-.loginEmail > input, .loginPassword > input {
+.SignInEmail > input, .SignInPassword > input, .SignInPasswordRepeat > input {
   border-top: none;
   border-right: none;
   border-left: none;
@@ -62,11 +62,11 @@
   background-color: transparent;
 }
 
-.loginEmail > p, .loginPassword > p {
+.SignInEmail > p, .SignInPassword >p, .SignInPasswordRepeat > p {
   color: red;
 }
 
-.loginButtons {
+.SignInButtons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,7 +89,7 @@
   border: 2px solid $gray;
 }
 
-.loginButtons  button {
+.SignInButtons button {
   border: 2px solid transparent;
   background-color: transparent;
   font-size: 18px;
@@ -98,6 +98,7 @@
   transform: translateX(130%)
 }
 
-.loginButtons  button:hover {
+.SignInButtons button:hover {
   border: 2px solid $gray;
+  border-radius: 0;
 }
