@@ -152,6 +152,13 @@ textarea, textarea:focus-visible {
   margin-top: 2rem;
   display: flex;
   justify-content: flex-end;
+  //margin-top: 40px;
+  //padding: 0.5rem 2rem;
+  //background-color: white;
+  //border: 1px solid black;
+  //cursor: pointer;
+  //margin-left: 345px;
+  //font: 300 18px Open Sans;
 }
 
 .button > button {
@@ -161,6 +168,11 @@ textarea, textarea:focus-visible {
   background: transparent;
   border: 1px solid $gray;
   border-radius: 2px;
+}
+
+.button > button:hover {
+  background-color: $yellow;
+  color: $darkgrey;
 }
 
 .nameError, .emailError, .textAreaError {
