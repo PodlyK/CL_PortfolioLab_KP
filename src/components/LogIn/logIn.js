@@ -70,7 +70,7 @@ const LogIn = () => {
                                     {hasEmailError && <p>Podano nieprawidłowy email</p>}
                                 </div>
                                 <div className="loginPassword">
-                                    <label className="mb-2">Password</label>
+                                    <label className="mb-2">Hasło</label>
                                     <input
                                         type="password"
                                         className="mb-2"
@@ -80,8 +80,8 @@ const LogIn = () => {
                                 </div>
                             </div>
                             <div className="loginButtons">
-                                <Link to="/register" className="btn mx-2">Załóż konto</Link>
-                                <button type="submit" className="btn submit mx-2">Zaloguj się</button>
+                                <Link to="/rejestracja/" className="btn-mx-2" style={{color: 'inherit', textDecoration: 'none'}}>Załóż konto</Link>
+                                <button type="submit" className="btn-submit-mx-2">Zaloguj się</button>
                             </div>
                         </form>
                     </Col>
