@@ -138,7 +138,6 @@ const ContactForm = () => {
                                     cols="30"
                                     rows="5"
                                 />
-
                                 <p className="textAreaError">{errorTextarea}</p>
                             </div>
                             <div className="button">
@@ -148,15 +147,15 @@ const ContactForm = () => {
                     </Col>
                 </Row>
             </Container>
-            {/*<Container>*/}
-            {/*    <Row>*/}
-            {/*        <Col className="footer">*/}
-            {/*            <p>Copyright by Coders Lab</p>*/}
-            {/*            <img src={facebookIcon} alt="facebook" />*/}
-            {/*            <img src={instagramIcon} alt="instagram" />*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</Container>*/}
+            <Container>
+                <Row>
+                    <Col className="footer">
+                        <p>Copyright by Coders Lab</p>
+                        <img src={facebookIcon} alt="facebook" />
+                        <img src={instagramIcon} alt="instagram" />
+                    </Col>
+                </Row>
+            </Container>
         </>
     );
 };

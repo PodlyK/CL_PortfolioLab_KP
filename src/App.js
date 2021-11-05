@@ -14,7 +14,7 @@ function App() {
             <Route path="/logowanie/" component={LogIn} />
             <Route path="/rejestracja" component={SignIn} />
         </Switch>
-        <Social />
+        {/*<Social />*/}
       </BrowserRouter>
     </>
   );
