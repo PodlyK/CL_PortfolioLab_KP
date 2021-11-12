@@ -3,13 +3,51 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.logoutButton {
-  border: 2px solid transparent;
-}
 
-.logoutButton:hover {
+  //h3 {
+  //  width: 414px;
+  //  height: 110px;
+  //  font-size: 40px;
+  //  text-align: center;
+  //  color: $black;
+  //  letter-spacing: -0.8px;
+  //  opacity: 1;
+  //  margin-top: 7.688rem;
+  //  margin-bottom: 1.938rem;
+  //}
+
+  img {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .logoutButton-btn-mx-2 {
+    background-color: $white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 2.5rem;
+    padding: 0.938rem;
+    border: none;
+    text-align: center;
+  }
+
+.logoutButton-btn-mx-2:hover {
   border: 2px solid $gray;
+  cursor: pointer;
+}
+
+h3 {
+  width: 414px;
+  height: 110px;
+  font-size: 44px;
+  text-align: center;
+  color: $black;
+  letter-spacing: -0.8px;
+  opacity: 1;
+  margin-top: 7.688rem;
+  margin-bottom: 1.938rem;
 }

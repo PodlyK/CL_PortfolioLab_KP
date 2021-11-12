@@ -1,11 +1,15 @@
 import React, {useEffect, useState} from 'react';
+import { useHistory } from 'react-router';
 import {Container, Row, Col} from "react-bootstrap";
 import decoration from "../../assets/Decoration.svg";
 import NavBar from "../Header/NavBar";
 import Menu from "../Header/menu";
 
 
-const Logout = () => {
+const LogOut = () => {
+
+    let history = useHistory();
+
     return (
         <>
             <Container>
@@ -16,18 +20,17 @@ const Logout = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="userLogout">
-                <Row>
+            <Container>
+                <Row className="userLogout">
                     <Col className="loginPanel">
                         <h3>Wylogowanie nastąpiło pomyślnie!</h3>
                         <img src={decoration} alt="decoration" />
-                        <button className=" logoutButton btn mx-2">Main page</button>
+                        <button onClick={() => {history.push('/')}} className=" logoutButton-btn-mx-2">Strona główna</button>
                     </Col>
                 </Row>
             </Container>
         </>
-
     );
 };
 
-export default Logout;
+export default LogOut;
