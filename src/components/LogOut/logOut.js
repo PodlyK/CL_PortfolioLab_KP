@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import { useHistory } from 'react-router';
 import {Container, Row, Col} from "react-bootstrap";
+import { useHistory } from 'react-router';
 import decoration from "../../assets/Decoration.svg";
 import NavBar from "../Header/NavBar";
 import Menu from "../Header/menu";
@@ -12,23 +12,23 @@ const LogOut = () => {
 
     return (
         <>
-            <Container>
-                <Row className="userLoginNav">
-                    <Col>
+            <div className="userLoginNav">
+                <div>
+                    <ul>
                         <Menu />
+                    </ul>
+                </div>
+                <div>
+                    <ul>
                         <NavBar />
-                    </Col>
-                </Row>
-            </Container>
-            <Container>
-                <Row className="userLogout">
-                    <Col className="loginPanel">
-                        <h3>Wylogowanie nastąpiło pomyślnie!</h3>
-                        <img src={decoration} alt="decoration" />
-                        <button onClick={() => {history.push('/')}} className=" logoutButton-btn-mx-2">Strona główna</button>
-                    </Col>
-                </Row>
-            </Container>
+                    </ul>
+                </div>
+            </div>
+                <div className="loginPanel">
+                    <h3>Wylogowanie nastąpiło pomyślnie!</h3>
+                    <img src={decoration} alt="" />
+                    <button className="logoutButton" onClick={() => {history.push('/')}}>Strona główna</button>
+                </div>
         </>
     );
 };

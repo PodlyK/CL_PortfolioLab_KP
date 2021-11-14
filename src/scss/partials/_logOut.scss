@@ -1,53 +1,41 @@
-.userLogout {
+.loginPanel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+      h3 {
+      width: 414px;
+      height: 110px;
+      font-size: 38px;
+      text-align: center;
+      color: $black;
+      letter-spacing: -0.8px;
+      opacity: 1;
+      margin-top: 7.688rem;
+      margin-bottom: 1.938rem;
+    }
+
+      img {
+        padding: 0;
+        margin: 0 auto;
+      }
+
+      .logoutButton {
+        background-color: white;
+        text-decoration: none;
+        font-size: 1.125rem;
+        color: #000000;
+        font-weight: 300;
+        margin-top: 2.5rem;
+        padding: 0.938rem;
+        border: none;
+        text-align: center;
+      }
 }
 
-
-  //h3 {
-  //  width: 414px;
-  //  height: 110px;
-  //  font-size: 40px;
-  //  text-align: center;
-  //  color: $black;
-  //  letter-spacing: -0.8px;
-  //  opacity: 1;
-  //  margin-top: 7.688rem;
-  //  margin-bottom: 1.938rem;
-  //}
-
-  img {
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .logoutButton-btn-mx-2 {
-    background-color: $white;
-    text-decoration: none;
-    font-size: 1.125rem;
-    color: #000000;
-    font-weight: 300;
-    margin-top: 2.5rem;
-    padding: 0.938rem;
-    border: none;
-    text-align: center;
-  }
-
-.logoutButton-btn-mx-2:hover {
+.logoutButton:hover {
   border: 2px solid $gray;
   cursor: pointer;
 }
 
-h3 {
-  width: 414px;
-  height: 110px;
-  font-size: 44px;
-  text-align: center;
-  color: $black;
-  letter-spacing: -0.8px;
-  opacity: 1;
-  margin-top: 7.688rem;
-  margin-bottom: 1.938rem;
-}
