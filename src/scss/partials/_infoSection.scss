@@ -49,6 +49,13 @@
   margin-bottom: 3rem;
 }
 
+.whoWeHelp > h2 {
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: -0.76px;
+  color: $darkgrey;
+}
+
 .whoWeHelp > img {
   margin-top: 1.2rem;
   margin-bottom: 3rem;
@@ -56,12 +63,19 @@
 
 .whoWeHelp ul {
   padding-left: 4rem;
+  font-size: 24px;
 }
 
 .whoWeHelp > ul li {
   margin-left: 2rem;
   margin-right: 2rem;
+  flex-direction: column;
+  padding: 10px 20px;
+}
 
+.whoWeHelp > ul li:hover {
+  border: 1px solid $gray;
+  padding: 10px 20px;
 }
 
 .whoWeHelp > p {
@@ -78,16 +92,17 @@
 }
 
 .listOfFoundations > h5 {
-  width: 55%;
-  margin-top: -2rem;
+  width: 40vw;
   padding: 2rem;
   text-align: center;
+  line-height: 1.5rem;
+  font-size: 22px;
 }
 
 .listOfFoundations > ul {
-  width: 100%;
-  margin-top: 2rem;
+  width: 80vw;
   text-align: center;
+  margin: 30px 100px auto;
 }
 
 .list-group-item {
@@ -116,16 +131,26 @@
 }
 
 .nameOfFoundationAndDescription > div:nth-child(1) {
-  font-size: 1.2rem;
+  font-size: 26px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  line-height: 1.5rem;
 }
 
 .nameOfFoundationAndDescription > div:nth-child(2) {
-  font-size: 0.8rem;
+  font-size: 18px;
   font-style: italic;
+  text-align: left;
+  opacity: 1;
+  margin-bottom: 30px;
+  line-height: 1.5rem;
 }
 
 .whatWeCollectDetails {
-  font-size: 0.8rem;
+  font-size: 18px;
+  font-style: italic;
+  text-align: left;
+  opacity: 1;
 }
 
 .page-item {
@@ -138,7 +163,14 @@
 }
 
 .page-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: $gray;
+  font-size: 18px;
+  opacity: 1;
+  width: 40px;
+  height: 50px;
 }
 
 .page-link:hover {
