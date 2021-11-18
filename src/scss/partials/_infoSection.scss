@@ -47,6 +47,7 @@
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  width: 100vw;
 }
 
 .whoWeHelp > h2 {
@@ -62,8 +63,20 @@
 }
 
 .whoWeHelp ul {
+  width: 49vw;
   padding-left: 4rem;
   font-size: 24px;
+  display: flex;
+  text-align: center;
+}
+
+.whoWeHelp li {
+  width: 208px;
+  height: 79px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .whoWeHelp > ul li {
@@ -154,25 +167,26 @@
 }
 
 .page-item {
-  color: $gray;
-
+    display: flex;
+    color: $gray;
+    margin-top: 30px;
 }
 
 .page-item:hover {
-  border: none;
+    border: none;
 }
 
 .page-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $gray;
-  font-size: 18px;
-  opacity: 1;
-  width: 40px;
-  height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $gray;
+    font-size: 18px;
+    opacity: 1;
+    width: 40px;
+    height: 50px;
 }
 
 .page-link:hover {
-  border: 1px solid $gray;
+    border: 1px solid $gray;
 }
