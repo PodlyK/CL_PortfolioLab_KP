@@ -8,7 +8,6 @@ import EasySteps from "./EasySteps/easySteps";
 import AboutUs from "./AboutUs/aboutUs";
 import InfoSection from "./Information/infoSection";
 import ContactForm from "./ContactSection/contactForm";
-import Foundations from "./Information/foundations";
 
 
 
@@ -24,7 +23,6 @@ const Home = () => {
             <EasySteps />
             <AboutUs />
             <InfoSection />
-            {/*<Foundations />*/}
             <ContactForm />
         </>
     );
